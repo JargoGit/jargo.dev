@@ -30,11 +30,11 @@ console.log("Hello, world!");
 - BigInt
 
 ```js
-typeof 123;        // 'number'
-typeof "hi";       // 'string'
-typeof true;       // 'boolean'
-typeof null;       // 'object'
-typeof undefined;  // 'undefined'
+typeof 123; // 'number'
+typeof "hi"; // 'string'
+typeof true; // 'boolean'
+typeof null; // 'object'
+typeof undefined; // 'undefined'
 ```
 
 ---
@@ -103,8 +103,8 @@ console.log(Array.isArray(fruits)); // check if array
 console.log(fruits.indexOf("oranges")); // get index
 
 // Loop through
-fruits.forEach(fruit => console.log(fruit));
-const upper = fruits.map(f => f.toUpperCase());
+fruits.forEach((fruit) => console.log(fruit));
+const upper = fruits.map((f) => f.toUpperCase());
 ```
 
 ---
@@ -120,8 +120,8 @@ const person = {
   address: {
     street: "50 Main St",
     city: "Boston",
-    state: "MA"
-  }
+    state: "MA",
+  },
 };
 
 console.log(person.hobbies[1]); // 'movies'
@@ -149,14 +149,14 @@ console.log(todos[1].text); // 'Meeting with boss'
 **High-Order Methods**
 
 ```js
-todos.forEach(todo => console.log(todo.text));
-const texts = todos.map(todo => todo.text);
-const completed = todos.filter(todo => todo.isCompleted);
+todos.forEach((todo) => console.log(todo.text));
+const texts = todos.map((todo) => todo.text);
+const completed = todos.filter((todo) => todo.isCompleted);
 
 // Chain filter + map
 const completedTexts = todos
-  .filter(todo => todo.isCompleted)
-  .map(todo => todo.text);
+  .filter((todo) => todo.isCompleted)
+  .map((todo) => todo.text);
 ```
 
 ---
@@ -172,7 +172,7 @@ const todoJSON = JSON.stringify(todos);
 **Arrow Functions & Ternary**
 
 ```js
-const sayHello = name => `Hello, ${name}`;
+const sayHello = (name) => `Hello, ${name}`;
 const result = x > 10 ? "Over 10" : "10 or less";
 ```
 
@@ -237,4 +237,3 @@ try {
 - [JavaScript.info](https://javascript.info/)
 - [W3Schools JS](https://www.w3schools.com/js/)
 - [Codecademy Intermediate JavaScript](https://www.codecademy.com/enrolled/courses/learn-intermediate-javascript)
-

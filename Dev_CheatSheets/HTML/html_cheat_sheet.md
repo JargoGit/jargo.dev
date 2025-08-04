@@ -38,8 +38,12 @@
 - Table:
   ```html
   <table>
-    <tr><th>Head</th></tr>
-    <tr><td>Data</td></tr>
+    <tr>
+      <th>Head</th>
+    </tr>
+    <tr>
+      <td>Data</td>
+    </tr>
   </table>
   ```
 - Line Break: `<br />`
@@ -184,4 +188,3 @@
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [W3Schools HTML](https://www.w3schools.com/html/)
-

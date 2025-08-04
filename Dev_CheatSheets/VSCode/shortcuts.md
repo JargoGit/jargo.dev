@@ -1,7 +1,7 @@
 # VS Code Settings Explanations
 
-| Setting                                                             | Explanation                                                                      |
-| ------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Setting                                                             | Explanation                                                                       |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | `files.autoSave`                                                    | 🔁 Auto-save when focus leaves the editor                                         |
 | `files.autoSaveWhenNoErrors`                                        | 🧼 Only save automatically if there are no errors (disabled here for flexibility) |
 | `editor.fontSize`                                                   | 🔠 Editor font settings                                                           |
@@ -31,4 +31,4 @@
 | `git.autofetch`                                                     | 🔁 Git: automatically fetch changes                                               |
 | `breadcrumbs.enabled`                                               | 🧭 Show breadcrumb navigation above files                                         |
 | `javascript.updateImportsOnFileMove.enabled`                        | 🔁 Auto-update imports when renaming/moving files                                 |
-| `[markdown]` `editor.defaultFormatter`                              | Uses Markdown All in One as the default formatter for Markdown files             |
+| `[markdown]` `editor.defaultFormatter`                              | Uses Markdown All in One as the default formatter for Markdown files              |

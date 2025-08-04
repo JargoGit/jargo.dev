@@ -7,6 +7,7 @@ Welcome to **jargo.dev** — a personal web development starter kit and workspac
 ## 🚀 Project Purpose
 
 This repo serves as a streamlined sandbox for learning, building, and refining:
+
 - Front-end layouts and interactions
 - Coding standards (ESLint, Prettier)
 - Markdown-based documentation
@@ -30,3 +31,4 @@ Built for **momentum over perfection** — and optimized for devs who learn by d
 ├── README.md               # You're reading it!
 ├── azure-pipelines.yml     # Optional CI config
 └── package.json            # Dependency & script management
+```
